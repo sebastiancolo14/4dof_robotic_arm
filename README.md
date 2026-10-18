@@ -1,4 +1,4 @@
-• Denavit-Hartenberg modelling; forward, inverse and differential kinematics implemented from scratch in Python.
+• Denavit-Hartenberg modelling; forward, inverse and differential kinematics implemented from scratch in Python.//
 • Kinematic redundancy exploited to keep joints clear of their mechanical limits throughout the trajectory — a safety and wear requirement, not merely a formal nicety. Evaluated with dedicated metrics: minimum and mean normalised distance to joint limits, plus percentage of time spent in the critical band.
 • Experimental gain tuning under a multi-objective criterion balancing tracking accuracy against joint configuration quality.
 • Simulation-to-hardware transfer: runtime timing management, encoder feedback, non-blocking actuation, and • Hardware validation: the physical manipulator followed the trajectory in the correct direction but with significant oscillation about the ideal path — attributable to mechanical backlash, encoder quantisation and non-blocking control latency.
